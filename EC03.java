@@ -1,8 +1,8 @@
-// Print numbers from 1 to 10
+// Print the numbers in reverse
 
-public class EC02 {
+public class EC03 {
     public static void main(String[] args) {
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 10; i >= 1; i--) {
             System.out.print(i + " ");
         }
     }
